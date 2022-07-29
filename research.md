@@ -1,6 +1,6 @@
 ---
 layout: research
-title: research
+title: Research
 slug: /research
 items:
   - title: My Interest 1
