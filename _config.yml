@@ -20,10 +20,10 @@ footer:
   show_powered_by: true
   contact:
     - name: Email
-      value: yourmail@domain.com
-      link: mailto:yourmail@domain.com
+      value: liuyulong97@gmail.com
+      link: mailto:liuyulong97@gmail.com
     - name: WeChat
-      value: YourWeChatUsername
+      value: bullanddragon
       link: "#"
   follow:
     - name: Twitter
