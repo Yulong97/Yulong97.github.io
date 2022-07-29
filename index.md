@@ -6,7 +6,7 @@ profile_picture:
 ---
 
 <p>
-  Welcome! This site serves as an example for the Bay Jekyll theme. Bay is a very simple and minimal theme, directly inspired by Dan Grover's <a href="http://dangrover.com">website</a>.
+  My name is Yulong Liu (刘宇龙), I am interested in the connection of the virtual world and physical reality. The complexity of nature always fascinated and inspired me to explore. Now I am a Ph.D student supervised by <a href="http://ap.polyu.edu.hk/ychai/">Prof. Yang CHAI</a> at PolyU (HK) and <a href="https://faculty.sustech.edu.cn/yet/en/">Prof. Terry Tao YE</a> at SUSTech (China). 
 </p>
 
 <p>
