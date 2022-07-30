@@ -10,5 +10,5 @@ profile_picture:
 </p>
 
 <p>
-  You can find the source code and the instructions on <a href="https://github.com/eliottvincent/bay">GitHub</a>.
+  You can find my academic track via<a href="https://scholar.google.com/citations?user=cKS4AxIAAAAJ&hl=en">Google Scholar</a> or <a href="https://www.researchgate.net/profile/Yulong-Liu">Research Gate</a>.
 </p>

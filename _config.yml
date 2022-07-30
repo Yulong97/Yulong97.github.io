@@ -29,14 +29,10 @@ footer:
     - name: Twitter
       link: http://twitter.com/YourTwitterUsername
       username: "@YourTwitterUsername"
-    - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
     - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
+      link: https://www.linkedin.com/in/yulong-liu-492457136/
     - name: GitHub
       link: https://github.com/Yulong97
-    - name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
     - name: RSS
       link: /feed.xml
 
