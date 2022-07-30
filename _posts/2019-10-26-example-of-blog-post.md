@@ -19,11 +19,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 #### Table of Contents
-1. [Part 1](#part-1)
-2. [Part 2](#part-2)
-    * [Part 2 Sub-part 1](#part-2-sub-part-1)
-    * [Part 2 Sub-part 2](#part-2-sub-part-2)
-3. [Footnotes](#footnotes)
+- [Table of Contents](#table-of-contents)
+- [PART 1](#part-1)
+- [PART 2](#part-2)
+  - [PART 2 SUB PART 1](#part-2-sub-part-1)
+  - [PART 2 SUB PART 2](#part-2-sub-part-2)
+  - [FOOTNOTES](#footnotes)
 
 #### PART 1
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -36,6 +37,8 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 
 #### PART 2
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+$a = \pi$
 
 <br />
 
