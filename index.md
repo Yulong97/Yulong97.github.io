@@ -1,7 +1,7 @@
 ---
 layout: home
 profile_picture:
-  src: /assets/img/profile-pic.jpg
+  src: /assets/img/profile.png
   alt: website picture
 ---
 
@@ -10,5 +10,5 @@ profile_picture:
 </p>
 
 <p>
-  You can find my academic track via<a href="https://scholar.google.com/citations?user=cKS4AxIAAAAJ&hl=en">Google Scholar</a> or <a href="https://www.researchgate.net/profile/Yulong-Liu">Research Gate</a>.
+  You can find my academic track via <a href="https://scholar.google.com/citations?user=cKS4AxIAAAAJ&hl=en">Google Scholar</a> or <a href="https://www.researchgate.net/profile/Yulong-Liu">Research Gate</a>.
 </p>
