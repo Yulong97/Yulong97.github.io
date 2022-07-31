@@ -2,8 +2,6 @@
 layout: post
 title:  "Test Post"
 date:   2022-07-31 18:52:27
-blurb: "A look at an example post using Bay Jekyll theme."
-og_image: /assets/img/content/post-example/Banner.jpg
 ---
 
 # test title 1
