@@ -8,7 +8,7 @@ items:
       src: /assets/img/work/etextile-min.png
       alt: e-textile
     description: With advances in materials and fabrication methods, e-textile devices are regarded as the next generation of smart wearables for thier flexibility, comfortbility and easy-to-deployment. Research in this area encompass material development and characterizaion, fuctional devices design, and fabric computing. In this topic, my work include invesgating characteration of the material, such as 
-    <br />
+
     test
   - title: Battery-less Sensing
     image:

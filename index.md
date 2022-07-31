@@ -12,7 +12,7 @@ profile_picture:
 </p>
 
 <p>
-  You can find my academic track via <a href="https://scholar.google.com/citations?user=cKS4AxIAAAAJ&hl=en">Google Scholar</a> or <a href="https://www.researchgate.net/profile/Yulong-Liu">Research Gate</a>. For details of my background, experiences, and full list of publications can be referred to my <a href="/assets/pdf/cv_liuyulong.pdf">CV</a>.
+  You can find my academic track via <a href="https://scholar.google.com/citations?user=cKS4AxIAAAAJ&hl=en">Google Scholar</a> or <a href="https://www.researchgate.net/profile/Yulong-Liu">ResearchGate</a>. For details of my background, experiences, and full list of publications can be referred to my <a href="/assets/pdf/cv_liuyulong.pdf">CV</a>.
 </p>
 
 <br />
