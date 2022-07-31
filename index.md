@@ -21,4 +21,7 @@ profile_picture:
 <i>2022-07-31</i> Website is firstly lauched.
 </p>
 
-<h2></h2>
+<br />
+<hr />
+
+<h2>Miscellaneous</h2>
