@@ -21,7 +21,7 @@ profile_picture:
 
 <p>
 <i>2022-07:</i>   Website is upgraded to the theme <a href="https://github.com/eliottvincent/bay">Bay</a>.<br>
-<i>2022-05:</i>   One co-first-author paper proposed an e-textile based keypad [<a href="https://pubs.acs.org/doi/abs/10.1021/acsami.2c04246">link</a>] is published at <i>ACS Applied Materials & Interfaces</i>.
+<i>2022-05:</i>   One co-first-author paper proposed an <u>e-textile based keypad</u> [<a href="https://pubs.acs.org/doi/abs/10.1021/acsami.2c04246">link</a>] is published at <i>ACS Applied Materials & Interfaces</i>.
 </p>
 
 <br />
