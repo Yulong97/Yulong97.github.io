@@ -13,15 +13,15 @@ profile_picture:
   You can find my academic track via <a href="https://scholar.google.com/citations?user=cKS4AxIAAAAJ&hl=en">Google Scholar</a> or <a href="https://www.researchgate.net/profile/Yulong-Liu">Research Gate</a>.
 </p>
 
-
+<br />
 
 <h2>News</h2>
 
 <p>
-<i>2022-07-31</i> Website is firstly lauched.
+<i>2022-07</i> Website is firstly lauched.
 </p>
 
 <br />
-<br />
+
 
 <h2>Miscellaneous</h2>
