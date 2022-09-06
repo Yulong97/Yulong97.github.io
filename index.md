@@ -29,3 +29,14 @@ profile_picture:
 <h2>Miscellaneous</h2>
 
 Need to be continued...
+
+<br />
+
+This page has been accessed at least
+<a href="http://stuff.mit.edu/doc/counter-howto.html"><img 
+src="http://stuff.mit.edu/cgi/counter/yulong" alt="several"></a>
+times since the counter was last reset, 
+<!-- shouldn't happen, but include the disclaimer anyway -->
+or September 6, 2022, 
+<!-- when the counter with this name was first used --> 
+whichever is more recent.
