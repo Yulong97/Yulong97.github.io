@@ -8,8 +8,7 @@ profile_picture:
 <h1>About Me</h1>
 
 <p>
-  My name is Yulong Liu (<b>刘宇龙</b>), I am interested in the connection of the virtual world and physical reality. The complexity of nature always inspired me to delve deeper and uncover its mysteries. Currently, I am a Ph.D student supervised by <a href="http://ap.polyu.edu.hk/ychai/">Prof. Yang CHAI</a> at PolyU (HK) and <a href="https://faculty.sustech.edu.cn/yet/en/">Prof. Terry Tao YE</a> at SUSTech (China). My current research topics include e-textile devices, battery-less sensing and in-sensor computing. 
-</p>
+  My name is Yulong Liu (<b>刘宇龙</b>), I am interested in the connection of the virtual world and physical reality. The complexity of nature always inspired me to delve deeper and uncover its mysteries. Currently, I am a Ph.D student supervised by <a href="http://ap.polyu.edu.hk/ychai/">Prof. Yang CHAI</a> at PolyU (HK) and <a href="https://faculty.sustech.edu.cn/yet/en/">Prof. Terry Tao YE</a> at SUSTech (China). My current research topics include e-textile devices, battery-less sensing and in-sensor computing.
 
 <p>
   You can find my academic track via <a href="https://scholar.google.com/citations?user=cKS4AxIAAAAJ&hl=en">Google Scholar</a> or <a href="https://www.researchgate.net/profile/Yulong-Liu">ResearchGate</a>. For details of my background, experiences, and full list of publications, please refer to my <a href="/assets/pdf/cv_liuyulong.pdf">CV</a>.

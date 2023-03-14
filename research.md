@@ -7,7 +7,7 @@ items:
     image:
       src: /assets/img/work/etextile-min.png
       alt: e-textile
-    description: E-textile devices, which are made using advanced materials and fabrication techniques, are seen as the future of smart wearables due to their flexibility, comfort, and ease of deployment. Research in this field involves the development and characterization of materials, the design of functional devices, and the creation of fabric computing systems. My work in this area includes the investigation of material characterization, the design of embroidered antennas, and the development of fabric-based sensors. These devices offer a number of benefits over traditional wearables, including improved comfort, flexibility, and durability. As a result, they are being widely explored for use in a range of applications, including healthcare, fitness, and communication.
+    description: E-textile devices, which are made using advanced materials and fabrication techniques, are seen as the future of smart wearables due to their flexibility, comfort, and ease of deployment. Research in this field involves the development and characterization of materials, the design of functional devices, and the creation of fabric computing systems. My work in this area includes the investigation of material characterization, the design of embroidered antennas, and the development of fabric-based sensors. These devices offer a number of benefits over traditional wearables, including improved comfort, flexibility, and durability. As a result, they are being widely explored for use in a range of applications, including healthcare, fitness, and communication. test
   - title: Battery-less Sensing
     image:
       src: /assets/img/work/batteryless.png
