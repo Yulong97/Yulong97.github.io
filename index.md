@@ -19,7 +19,7 @@ profile_picture:
 <h2>News</h2>
 
 <p>
-<i>2023-04:</i>   One co-first-author article extracted <u>parasitic capacitance in conductive yarn</u> [<a href="https://pubs.acs.org/doi/abs/10.1021/acsami.2c04246">link</a>] is published at <i>Nature Communications</i>.<br>
+<i>2023-04:</i>   One co-first-author article extracted <u>parasitic capacitance in conductive yarn</u> [<a href="https://www.nature.com/articles/s41467-023-38319-6">link</a>] is published at <i>Nature Communications</i>.<br>
 <i>2022-07:</i>   Website is upgraded to the theme <a href="https://github.com/eliottvincent/bay">Bay</a>.<br>
 <i>2022-05:</i>   One co-first-author paper proposed an <u>e-textile based keypad</u> [<a href="https://pubs.acs.org/doi/abs/10.1021/acsami.2c04246">link</a>] is published at <i>ACS Applied Materials & Interfaces</i>.
 </p>
