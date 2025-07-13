@@ -10,7 +10,7 @@ This is a personal academic website built with Jekyll using the Bay theme. The s
 
 **Jekyll-based static site** with the following structure:
 - **Theme**: Bay Jekyll theme (customized from https://github.com/eliottvincent/bay)
-- **Layout system**: Uses Jekyll's templating with include tags and layout in front matter
+- **Layout system**: Uses Jekyll's templating with `{% include %}` and `layout:` in front matter
 - **Content**: Markdown files in `_posts/` for blog content, with pages defined as `.md` files
 - **Styling**: Sass-based CSS in `_sass/` directory, compiled to main.css
 - **Asset pipeline**: Images, JS, PDFs in `assets/` directory

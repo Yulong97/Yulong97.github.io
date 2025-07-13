@@ -1,0 +1,160 @@
+I"><p>最近在开发过程中，我开始使用 <a href="https://claude.ai/code">Claude Code</a> 作为我的 AI 编程助手，体验非常惊艳。今天想分享一下我使用 Claude Code 的一些实际经验和感受。</p>
+
+<h2 id="什么是-claude-code">什么是 Claude Code</h2>
+
+<p>Claude Code 是 Anthropic 推出的 AI 编程助手，它可以直接在终端中使用，通过自然语言与代码交互。不同于传统的代码补全工具，Claude Code 能够理解整个代码库的上下文，并执行复杂的开发任务。</p>
+
+<h2 id="我的使用场景">我的使用场景</h2>
+
+<h3 id="1-代码重构与优化">1. 代码重构与优化</h3>
+
+<p>在维护这个 Jekyll 网站时，我需要对 CSS 架构进行重构。Claude Code 能够快速分析现有的 Sass 文件结构，并提出优化建议：</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 让 Claude 分析当前的 CSS 架构</span>
+claude <span class="s2">"分析 _sass 目录的结构，建议如何优化样式组织"</span>
+</code></pre></div></div>
+
+<p>它不仅给出了具体的重构方案，还直接帮我实施了更改，包括：</p>
+<ul>
+  <li>将重复的样式提取为 mixin</li>
+  <li>优化媒体查询的组织方式</li>
+  <li>改进变量命名规范</li>
+</ul>
+
+<h3 id="2-自动化任务处理">2. 自动化任务处理</h3>
+
+<p>使用 Claude Code 的 todo 功能，我可以将复杂的任务分解为可管理的步骤：</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 创建任务列表</span>
+claude <span class="s2">"帮我为添加深色模式功能制定详细的实现计划"</span>
+</code></pre></div></div>
+
+<p>它会自动创建包含以下内容的 todo 列表：</p>
+<ol>
+  <li>分析现有样式架构</li>
+  <li>设计深色模式变量</li>
+  <li>实现切换功能</li>
+  <li>测试响应式设计</li>
+</ol>
+
+<h3 id="3-智能代码搜索和解释">3. 智能代码搜索和解释</h3>
+
+<p>与传统的 grep 不同，Claude Code 能够理解代码的语义：</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 找到处理文章分类的所有相关代码</span>
+claude <span class="s2">"搜索所有处理博客文章分类的代码"</span>
+</code></pre></div></div>
+
+<p>它不仅找到了相关的文件，还解释了每个部分的作用，以及它们如何协同工作。</p>
+
+<h2 id="实际工作流程示例">实际工作流程示例</h2>
+
+<p>以今天添加这篇博客为例，我的工作流程是：</p>
+
+<ol>
+  <li><strong>创建任务规划</strong>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>claude <span class="s2">"帮我创建一篇关于 Claude Code 使用经验的博客文章"</span>
+</code></pre></div>    </div>
+  </li>
+  <li><strong>内容生成与优化</strong>
+Claude Code 根据我的要求生成了初稿，然后我们进行了多轮迭代优化：
+    <ul>
+      <li>调整技术深度</li>
+      <li>添加个人经验</li>
+      <li>优化中文表达</li>
+    </ul>
+  </li>
+  <li><strong>集成到现有网站</strong>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>claude <span class="s2">"将这篇博客添加到 _posts 目录，使用正确的命名格式"</span>
+</code></pre></div>    </div>
+  </li>
+  <li><strong>预览和测试</strong>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">exec </span>jekyll serve
+<span class="c"># 本地预览效果</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="相比传统开发的优势">相比传统开发的优势</h2>
+
+<h3 id="1-上下文理解">1. 上下文理解</h3>
+<p>Claude Code 能够：</p>
+<ul>
+  <li>理解整个代码库的架构</li>
+  <li>记住之前的对话和决策</li>
+  <li>根据项目规范调整建议</li>
+</ul>
+
+<h3 id="2-减少重复工作">2. 减少重复工作</h3>
+<ul>
+  <li>自动生成符合项目规范的代码</li>
+  <li>避免手动搜索相关文件</li>
+  <li>自动化重构和格式化</li>
+</ul>
+
+<h3 id="3-学习成本极低">3. 学习成本极低</h3>
+<ul>
+  <li>使用自然语言交互</li>
+  <li>不需要记忆复杂命令</li>
+  <li>提供渐进式的学习体验</li>
+</ul>
+
+<h2 id="注意事项和最佳实践">注意事项和最佳实践</h2>
+
+<h3 id="1-保持人工审核">1. 保持人工审核</h3>
+<p>虽然 Claude Code 很强大，但我始终保持：</p>
+<ul>
+  <li>代码审查的习惯</li>
+  <li>理解每一行更改的含义</li>
+  <li>在提交前进行测试</li>
+</ul>
+
+<h3 id="2-分步验证">2. 分步验证</h3>
+<p>对于复杂更改，我会：</p>
+<ul>
+  <li>让 Claude Code 分步执行</li>
+  <li>每步都进行验证</li>
+  <li>必要时回滚更改</li>
+</ul>
+
+<h3 id="3-文档化重要决策">3. 文档化重要决策</h3>
+<p>使用 Claude Code 的 todo 功能记录：</p>
+<ul>
+  <li>架构决策的依据</li>
+  <li>遇到的问题和解决方案</li>
+  <li>最佳实践的总结</li>
+</ul>
+
+<h2 id="与-github-工作流集成">与 GitHub 工作流集成</h2>
+
+<p>Claude Code 完美地融入了我的 GitHub 工作流：</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 创建功能分支</span>
+claude <span class="s2">"帮我创建一个新分支来添加博客功能"</span>
+
+<span class="c"># 生成提交信息</span>
+claude <span class="s2">"基于当前更改生成合适的提交信息"</span>
+
+<span class="c"># 创建 PR 描述</span>
+claude <span class="s2">"帮我写这个 PR 的描述"</span>
+</code></pre></div></div>
+
+<h2 id="总结">总结</h2>
+
+<p>使用 Claude Code 后，我的开发效率提升了约 30-40%。最大的价值不在于它能完全替代人工，而在于它：</p>
+
+<ol>
+  <li><strong>减少了认知负担</strong> - 不需要记忆所有文件位置</li>
+  <li><strong>加速了学习过程</strong> - 快速理解新代码库</li>
+  <li><strong>提高了代码质量</strong> - 遵循最佳实践</li>
+  <li><strong>简化了重复任务</strong> - 自动化繁琐的工作</li>
+</ol>
+
+<p>对于个人项目（如这个 Jekyll 网站）和团队协作项目，Claude Code 都展现出了巨大的价值。特别是在处理遗留代码或探索新技术栈时，它的上下文理解能力特别有帮助。</p>
+
+<p>如果你也在寻找提升开发效率的方法，强烈推荐尝试一下 Claude Code！</p>
+
+<hr />
+
+<p><em>这篇博客本身就是使用 Claude Code 协助完成的例子 🙂</em></p>
+:ET

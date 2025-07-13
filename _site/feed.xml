@@ -1,4 +1,162 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-15T23:57:40+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yulong’s Webpage</title><subtitle>This web is sopported by Bay: a minimal Jekyll Theme.</subtitle><entry><title type="html">Using ChatGPT to Automate Blog Writing</title><link href="http://localhost:4000/2023/03/14/GPTblog.html" rel="alternate" type="text/html" title="Using ChatGPT to Automate Blog Writing" /><published>2023-03-14T20:00:00+08:00</published><updated>2023-03-14T20:00:00+08:00</updated><id>http://localhost:4000/2023/03/14/GPTblog</id><content type="html" xml:base="http://localhost:4000/2023/03/14/GPTblog.html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/content/post-example/Banner.jpg&quot; alt=&quot;blog automation&quot; class=&quot;post-pic&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://yulong97.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://yulong97.github.io/" rel="alternate" type="text/html" /><updated>2025-07-13T21:57:59+08:00</updated><id>https://yulong97.github.io/feed.xml</id><title type="html">Yulong’s Webpage</title><subtitle>This web is sopported by Bay: a minimal Jekyll Theme.</subtitle><entry><title type="html">使用 Claude Code 提升开发效率的经验分享</title><link href="https://yulong97.github.io/development/tools/2025/07/13/claude-code-development-experience.html" rel="alternate" type="text/html" title="使用 Claude Code 提升开发效率的经验分享" /><published>2025-07-13T20:00:00+08:00</published><updated>2025-07-13T20:00:00+08:00</updated><id>https://yulong97.github.io/development/tools/2025/07/13/claude-code-development-experience</id><content type="html" xml:base="https://yulong97.github.io/development/tools/2025/07/13/claude-code-development-experience.html">&lt;p&gt;最近在开发过程中，我开始使用 &lt;a href=&quot;https://claude.ai/code&quot;&gt;Claude Code&lt;/a&gt; 作为我的 AI 编程助手，体验非常惊艳。今天想分享一下我使用 Claude Code 的一些实际经验和感受。&lt;/p&gt;
+
+&lt;h2 id=&quot;什么是-claude-code&quot;&gt;什么是 Claude Code&lt;/h2&gt;
+
+&lt;p&gt;Claude Code 是 Anthropic 推出的 AI 编程助手，它可以直接在终端中使用，通过自然语言与代码交互。不同于传统的代码补全工具，Claude Code 能够理解整个代码库的上下文，并执行复杂的开发任务。&lt;/p&gt;
+
+&lt;h2 id=&quot;我的使用场景&quot;&gt;我的使用场景&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-代码重构与优化&quot;&gt;1. 代码重构与优化&lt;/h3&gt;
+
+&lt;p&gt;在维护这个 Jekyll 网站时，我需要对 CSS 架构进行重构。Claude Code 能够快速分析现有的 Sass 文件结构，并提出优化建议：&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 让 Claude 分析当前的 CSS 架构&lt;/span&gt;
+claude &lt;span class=&quot;s2&quot;&gt;&quot;分析 _sass 目录的结构，建议如何优化样式组织&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;它不仅给出了具体的重构方案，还直接帮我实施了更改，包括：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;将重复的样式提取为 mixin&lt;/li&gt;
+  &lt;li&gt;优化媒体查询的组织方式&lt;/li&gt;
+  &lt;li&gt;改进变量命名规范&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-自动化任务处理&quot;&gt;2. 自动化任务处理&lt;/h3&gt;
+
+&lt;p&gt;使用 Claude Code 的 todo 功能，我可以将复杂的任务分解为可管理的步骤：&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 创建任务列表&lt;/span&gt;
+claude &lt;span class=&quot;s2&quot;&gt;&quot;帮我为添加深色模式功能制定详细的实现计划&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;它会自动创建包含以下内容的 todo 列表：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;分析现有样式架构&lt;/li&gt;
+  &lt;li&gt;设计深色模式变量&lt;/li&gt;
+  &lt;li&gt;实现切换功能&lt;/li&gt;
+  &lt;li&gt;测试响应式设计&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;3-智能代码搜索和解释&quot;&gt;3. 智能代码搜索和解释&lt;/h3&gt;
+
+&lt;p&gt;与传统的 grep 不同，Claude Code 能够理解代码的语义：&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 找到处理文章分类的所有相关代码&lt;/span&gt;
+claude &lt;span class=&quot;s2&quot;&gt;&quot;搜索所有处理博客文章分类的代码&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;它不仅找到了相关的文件，还解释了每个部分的作用，以及它们如何协同工作。&lt;/p&gt;
+
+&lt;h2 id=&quot;实际工作流程示例&quot;&gt;实际工作流程示例&lt;/h2&gt;
+
+&lt;p&gt;以今天添加这篇博客为例，我的工作流程是：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;创建任务规划&lt;/strong&gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;claude &lt;span class=&quot;s2&quot;&gt;&quot;帮我创建一篇关于 Claude Code 使用经验的博客文章&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;内容生成与优化&lt;/strong&gt;
+Claude Code 根据我的要求生成了初稿，然后我们进行了多轮迭代优化：
+    &lt;ul&gt;
+      &lt;li&gt;调整技术深度&lt;/li&gt;
+      &lt;li&gt;添加个人经验&lt;/li&gt;
+      &lt;li&gt;优化中文表达&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;集成到现有网站&lt;/strong&gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;claude &lt;span class=&quot;s2&quot;&gt;&quot;将这篇博客添加到 _posts 目录，使用正确的命名格式&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;预览和测试&lt;/strong&gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve
+&lt;span class=&quot;c&quot;&gt;# 本地预览效果&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;相比传统开发的优势&quot;&gt;相比传统开发的优势&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-上下文理解&quot;&gt;1. 上下文理解&lt;/h3&gt;
+&lt;p&gt;Claude Code 能够：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;理解整个代码库的架构&lt;/li&gt;
+  &lt;li&gt;记住之前的对话和决策&lt;/li&gt;
+  &lt;li&gt;根据项目规范调整建议&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-减少重复工作&quot;&gt;2. 减少重复工作&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;自动生成符合项目规范的代码&lt;/li&gt;
+  &lt;li&gt;避免手动搜索相关文件&lt;/li&gt;
+  &lt;li&gt;自动化重构和格式化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-学习成本极低&quot;&gt;3. 学习成本极低&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;使用自然语言交互&lt;/li&gt;
+  &lt;li&gt;不需要记忆复杂命令&lt;/li&gt;
+  &lt;li&gt;提供渐进式的学习体验&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;注意事项和最佳实践&quot;&gt;注意事项和最佳实践&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-保持人工审核&quot;&gt;1. 保持人工审核&lt;/h3&gt;
+&lt;p&gt;虽然 Claude Code 很强大，但我始终保持：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;代码审查的习惯&lt;/li&gt;
+  &lt;li&gt;理解每一行更改的含义&lt;/li&gt;
+  &lt;li&gt;在提交前进行测试&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-分步验证&quot;&gt;2. 分步验证&lt;/h3&gt;
+&lt;p&gt;对于复杂更改，我会：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;让 Claude Code 分步执行&lt;/li&gt;
+  &lt;li&gt;每步都进行验证&lt;/li&gt;
+  &lt;li&gt;必要时回滚更改&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-文档化重要决策&quot;&gt;3. 文档化重要决策&lt;/h3&gt;
+&lt;p&gt;使用 Claude Code 的 todo 功能记录：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;架构决策的依据&lt;/li&gt;
+  &lt;li&gt;遇到的问题和解决方案&lt;/li&gt;
+  &lt;li&gt;最佳实践的总结&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;与-github-工作流集成&quot;&gt;与 GitHub 工作流集成&lt;/h2&gt;
+
+&lt;p&gt;Claude Code 完美地融入了我的 GitHub 工作流：&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 创建功能分支&lt;/span&gt;
+claude &lt;span class=&quot;s2&quot;&gt;&quot;帮我创建一个新分支来添加博客功能&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 生成提交信息&lt;/span&gt;
+claude &lt;span class=&quot;s2&quot;&gt;&quot;基于当前更改生成合适的提交信息&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 创建 PR 描述&lt;/span&gt;
+claude &lt;span class=&quot;s2&quot;&gt;&quot;帮我写这个 PR 的描述&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
+
+&lt;p&gt;使用 Claude Code 后，我的开发效率提升了约 30-40%。最大的价值不在于它能完全替代人工，而在于它：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;减少了认知负担&lt;/strong&gt; - 不需要记忆所有文件位置&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;加速了学习过程&lt;/strong&gt; - 快速理解新代码库&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;提高了代码质量&lt;/strong&gt; - 遵循最佳实践&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;简化了重复任务&lt;/strong&gt; - 自动化繁琐的工作&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;对于个人项目（如这个 Jekyll 网站）和团队协作项目，Claude Code 都展现出了巨大的价值。特别是在处理遗留代码或探索新技术栈时，它的上下文理解能力特别有帮助。&lt;/p&gt;
+
+&lt;p&gt;如果你也在寻找提升开发效率的方法，强烈推荐尝试一下 Claude Code！&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;这篇博客本身就是使用 Claude Code 协助完成的例子 🙂&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="development" /><category term="tools" /><category term="claude-code" /><category term="ai" /><category term="development" /><category term="github" /><summary type="html">最近在开发过程中，我开始使用 Claude Code 作为我的 AI 编程助手，体验非常惊艳。今天想分享一下我使用 Claude Code 的一些实际经验和感受。</summary></entry><entry><title type="html">Using ChatGPT to Automate Blog Writing</title><link href="https://yulong97.github.io/2023/03/14/GPTblog.html" rel="alternate" type="text/html" title="Using ChatGPT to Automate Blog Writing" /><published>2023-03-14T20:00:00+08:00</published><updated>2023-03-14T20:00:00+08:00</updated><id>https://yulong97.github.io/2023/03/14/GPTblog</id><content type="html" xml:base="https://yulong97.github.io/2023/03/14/GPTblog.html">&lt;p&gt;&lt;img src=&quot;https://yulong97.github.io/assets/img/content/post-example/Banner.jpg&quot; alt=&quot;blog automation&quot; class=&quot;post-pic&quot; /&gt;
 &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
