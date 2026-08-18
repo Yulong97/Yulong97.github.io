@@ -26,28 +26,24 @@ footer:
       value: bullanddragon
       link: "#"
   follow:
-    - name: Twitter
+    - name: X
       link: http://twitter.com/LiuYulong_
       username: "@YourTwitterUsername"
     - name: LinkedIn
       link: https://www.linkedin.com/in/yulong-liu-492457136/
     - name: GitHub
       link: https://github.com/Yulong97
-    - name: RSS
-      link: /feed.xml
 
 # Build settings
 markdown: kramdown
 sass:
     style: :compressed
-plugins:
-  - jekyll-feed
+plugins: []
 
 # Excluded items
 exclude:
   - .sass-cache/
   - .jekyll-cache/
-  - feed.xml
   - gemfiles/
   - Gemfile
   - Gemfile.lock
@@ -57,4 +53,4 @@ exclude:
   - vendor/ruby/
 
 # Used for defeating caching
-version: 1
+version: 2

@@ -6,11 +6,6 @@ source "https://rubygems.org"
 #     bundle exec jekyll serve
 gem "jekyll", "~> 4.0.0"
 
-# Plugins
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-end
-
 # webrick is no longer bundled with Ruby 3+
 gem "webrick"
 

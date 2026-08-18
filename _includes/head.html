@@ -30,7 +30,7 @@
   {% endif %}
 
   {% for follow in site.footer.follow %}
-    {% if follow.name == 'Twitter' %}
+    {% if follow.name == 'Twitter' or follow.name == 'X' %}
       {% assign twitter_username = follow.username %}
       {% break %}
     {% endif %}
