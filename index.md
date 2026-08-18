@@ -8,10 +8,10 @@ profile_picture:
 <h1>About Me</h1>
 
 <p>
-  My name is Yulong Liu (<b>刘宇龙</b>), I am interested in the connection of the virtual world and physical reality. The complexity of nature always inspired me to delve deeper and uncover its mysteries. Currently, I am a Ph.D student supervised by <a href="http://ap.polyu.edu.hk/ychai/">Prof. Yang CHAI</a> at PolyU (HK) and <a href="https://faculty.sustech.edu.cn/yet/en/">Prof. Terry Tao YE</a> at SUSTech (China). My current research topics include e-textile devices, battery-less sensing and in-sensor computing.
+  My name is Yulong Liu (<b>刘宇龙</b>), I am interested in the connection of the virtual world and physical reality. The complexity of nature always inspired me to delve deeper and uncover its mysteries. I received my Ph.D. in July 2026, co-supervised by <a href="http://ap.polyu.edu.hk/ychai/">Prof. Yang CHAI</a> at PolyU (HK) and <a href="https://faculty.sustech.edu.cn/yet/en/">Prof. Terry Tao YE</a> at SUSTech (China). My research topics include e-textile devices, battery-less sensing and in-sensor computing.
 
 <p>
-  You can find my academic track via <a href="https://scholar.google.com/citations?user=cKS4AxIAAAAJ&hl=en">Google Scholar</a> or <a href="https://www.researchgate.net/profile/Yulong-Liu">ResearchGate</a>. For details of my background, experiences, and full list of publications, please refer to my <a href="/assets/pdf/cv_liuyulong.pdf">CV</a>.
+  You can find my academic track via <a href="https://scholar.google.com/citations?user=cKS4AxIAAAAJ&hl=en">Google Scholar</a> or <a href="https://www.researchgate.net/profile/Yulong-Liu">ResearchGate</a>. For details of my background, experiences, and full list of publications, please refer to my <a href="/assets/pdf/CV_刘宇龙-v1.0.0-en-2026-08-18.pdf">CV</a>.
 </p>
 
 <br />
@@ -19,7 +19,9 @@ profile_picture:
 <h2>News</h2>
 
 <p>
-<i>2023-04:</i>   One co-first-author article extracted <u>parasitic capacitance in conductive yarn</u> [<a href="https://www.nature.com/articles/s41467-023-38319-6">link</a>] is published at <i>Nature Communications</i>.<br>
+<i>2026-07:</i>   Successfully passed the Ph.D. defense and graduated.<br>
+<i>2026-05:</i>   One co-first-author paper is selected as <u>Best Paper Finalist</u> at <i>IEEE RFID Conference 2026</i>.<br>
+<i>2023-04:</i>   One co-first-author article extracted <u>parasitic capacitance in conductive yarn</u> [<a href="https://www.nature.com/articles/s41467-023-38319-6">link</a>] is published at <i>Nature Communications</i> and selected as an <u>Editor's Highlight</u>.<br>
 <i>2022-07:</i>   Website is upgraded to the theme <a href="https://github.com/eliottvincent/bay">Bay</a>.<br>
 <i>2022-05:</i>   One co-first-author paper proposed an <u>e-textile based keypad</u> [<a href="https://pubs.acs.org/doi/abs/10.1021/acsami.2c04246">link</a>] is published at <i>ACS Applied Materials & Interfaces</i>.
 </p>
