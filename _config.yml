@@ -12,9 +12,12 @@ google_analytics: "UA-121636368-3"
 header:
   pages:
     - name: Home
+      name_zh: 首页
       slug: /
     - name: Research
+      name_zh: 研究
     - name: Blog
+      name_zh: 博客
 
 footer:
   show_powered_by: true
@@ -53,4 +56,4 @@ exclude:
   - vendor/ruby/
 
 # Used for defeating caching
-version: 2
+version: 4

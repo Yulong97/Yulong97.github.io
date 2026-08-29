@@ -1,0 +1,40 @@
+# ------------------------------------------------------------
+# 界面文案（导航名称在 _config.yml 的 name / name_zh）
+# 正文：index.md、research.md、work.md、blog.md
+# 研究/作品卡片：front matter 里的 title_zh、description_zh
+# ------------------------------------------------------------
+
+site_title:
+  en: "Yulong's Webpage"
+  zh: "刘宇龙"
+
+footer:
+  contact:
+    en: CONTACT
+    zh: 联系
+  follow:
+    en: FOLLOW
+    zh: 关注
+  powered_by:
+    en: powered by
+    zh: 技术支持
+
+wechat:
+  en_before: "Find me on WeChat with the ID"
+  en_after: ", or scan my QR code:"
+  zh_before: "微信搜索 ID"
+  zh_after: "，或扫描下方二维码："
+
+not_found:
+  message:
+    en: "Page not found :("
+    zh: "页面未找到 :("
+  hint:
+    en: "The requested page could not be found"
+    zh: "无法找到所请求的页面"
+
+draft:
+  en_before: "This is a draft of a post coming to"
+  en_after: ". Please do not share yet."
+  zh_before: "这是即将发布于"
+  zh_after: "的草稿，请勿外传。"

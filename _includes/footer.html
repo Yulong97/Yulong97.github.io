@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <h4>CONTACT</h4>
+        <h4>{% include i18n.html en=site.data.i18n.footer.contact.en zh=site.data.i18n.footer.contact.zh %}</h4>
 
         <div class="social-links">
           {% for contact in site.footer.contact %}
@@ -27,7 +27,7 @@
       </div>
 
       <div class="footer-col footer-col-2">
-        <h4>FOLLOW</h4>
+        <h4>{% include i18n.html en=site.data.i18n.footer.follow.en zh=site.data.i18n.footer.follow.zh %}</h4>
 
         <div class="social-links follow-links">
           {% for follow in site.footer.follow %}
@@ -48,7 +48,7 @@
       {% if site.footer.show_powered_by == true %}
         <div class="footer-col footer-col-3 powered-by">
           <p>
-            powered by <a href="https://github.com/eliottvincent/bay">Bay</a> | {{ 'now' | date: "%Y" }}
+            {% include i18n.html en=site.data.i18n.footer.powered_by.en zh=site.data.i18n.footer.powered_by.zh %} <a href="https://github.com/eliottvincent/bay">Bay</a> | {{ 'now' | date: "%Y" }}
           </p>
         </div>
       {% endif %}

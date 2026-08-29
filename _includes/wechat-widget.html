@@ -7,8 +7,11 @@
 
 {% if wechat_username %}
   <div id="wechat-widget">
-    <p>
-      Find me on WeChat with the ID <strong>{{ wechat_username }}</strong>, or scan my QR code:
+    <p class="lang-en">
+      {{ site.data.i18n.wechat.en_before }} <strong>{{ wechat_username }}</strong>{{ site.data.i18n.wechat.en_after }}
+    </p>
+    <p class="lang-zh">
+      {{ site.data.i18n.wechat.zh_before }} <strong>{{ wechat_username }}</strong>{{ site.data.i18n.wechat.zh_after }}
     </p>
 
     <img src="{{ "/assets/img/wechat-qr-code.png" | absolute_url }}" alt="QR code" id="qr-code" />

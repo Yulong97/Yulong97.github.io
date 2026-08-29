@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   {% include head.html %}
 
   <body>
@@ -8,16 +8,19 @@
     <div class="page-content">
       <div class="wrapper">
         <div class="blog">
-          <h1 class="page-heading">{{ page.title }}</h1>
+          <h1 class="page-heading">{% include i18n.html en=page.title zh=page.title_zh %}</h1>
           {{ content }}
 
           <p class="blog-post-list">
             {% for post in site.posts %}
 
               {% if post.draft != true %}
-                <span class="blog-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span>
-                <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}" class="blog-post-title">
-                  {{ post.title }}
+                <span class="blog-post-date">
+                  <span class="lang-en">{{ post.date | date: "%-m/%-d/%y" }}</span>
+                  <span class="lang-zh">{{ post.date | date: "%Y-%m-%d" }}</span>
+                </span>
+                <a href="{{ post.url | replace:".html","" | absolute_url }}" class="blog-post-title">
+                  {% include i18n.html en=post.title zh=post.title_zh %}
                 </a>
                 <br />
 

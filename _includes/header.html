@@ -16,10 +16,12 @@
           {% endif %}
           {% assign page_link = page_link | absolute_url %}
           <a class="page-link" href="{{ page_link }}">
-            {{ page.name }}
+            {% include i18n.html en=page.name zh=page.name_zh %}
           </a>
         {% endfor %}
       </div>
+
+      {% include lang-switch.html %}
     </nav>
   </div>
 </header>

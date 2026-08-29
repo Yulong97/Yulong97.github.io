@@ -1,0 +1,8 @@
+{%- comment -%}
+  短文案双语切换。用法：
+  {% include i18n.html en="Home" zh="首页" %}
+  块级：{% include i18n.html tag="p" en="..." zh="..." %}
+{%- endcomment -%}
+{%- assign i18n_tag = include.tag | default: "span" -%}
+{%- assign i18n_zh = include.zh | default: include.en -%}
+<{{ i18n_tag }} class="lang-en">{{ include.en }}</{{ i18n_tag }}><{{ i18n_tag }} class="lang-zh">{{ i18n_zh }}</{{ i18n_tag }}>

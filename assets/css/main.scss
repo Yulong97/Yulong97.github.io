@@ -7,7 +7,9 @@
 // Our variables
 $base-url: "{{ site.baseurl }}";
 
-$base-font-family: Charter, Georgia, Helvetica, Arial, sans-serif;
+$base-font-family: Charter, Georgia, "Noto Serif SC", "Source Han Serif SC", serif;
+$zh-body-font-family: "Noto Serif SC", "Source Han Serif SC", Charter, Georgia, serif;
+$zh-ui-font-family: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", sans-serif;
 $base-font-size: 14px;
 $small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.7;

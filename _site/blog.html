@@ -1,13 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <script>
+    (function() {
+      var lang = "en";
+      try {
+        lang = localStorage.getItem("site-lang") || "en";
+      } catch (e) {}
+      if (lang !== "zh") lang = "en";
+      document.documentElement.setAttribute("data-lang", lang);
+      document.documentElement.setAttribute("lang", lang === "zh" ? "zh-CN" : "en");
+    })();
+  </script>
 
   
   
 
+  
+  
+
+  
   
   
   
@@ -28,6 +43,8 @@
 
   <!-- Primary Meta Tags -->
   <title>Yulong's Webpage | Blog</title>
+  <meta name="i18n-title-en" content="Yulong's Webpage | Blog"/>
+  <meta name="i18n-title-zh" content="刘宇龙 | 博客"/>
   <meta name="title" content="Yulong's Webpage | Blog"/>
   <meta name="description" content="This web is sopported by Bay: a minimal Jekyll Theme."/>
 
@@ -50,6 +67,8 @@
     <meta property="twitter:site" content="@YourTwitterUsername"/>
   
 
+  <link rel="preconnect" href="https://fonts.bunny.net" crossorigin/>
+  <link rel="stylesheet" href="https://fonts.bunny.net/css?family=noto-sans-sc:400,500,700|noto-serif-sc:400,600&display=swap"/>
   <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css"/>
   <link rel="canonical" href="http://localhost:4000//blog"/>
   <link rel="shortcut icon" href="http://localhost:4000/logo.ico" type="image/x-icon"/>
@@ -81,22 +100,32 @@
           
           
           <a class="page-link" href="http://localhost:4000/">
-            Home
+            <span class="lang-en">Home</span><span class="lang-zh">首页</span>
+
           </a>
         
           
           
           <a class="page-link" href="http://localhost:4000/research">
-            Research
+            <span class="lang-en">Research</span><span class="lang-zh">研究</span>
+
           </a>
         
           
           
           <a class="page-link" href="http://localhost:4000/blog">
-            Blog
+            <span class="lang-en">Blog</span><span class="lang-zh">博客</span>
+
           </a>
         
       </div>
+
+      <div class="lang-switch" role="group" aria-label="Language">
+  <button type="button" class="lang-btn" data-set-lang="en">EN</button>
+  <span class="lang-sep" aria-hidden="true">/</span>
+  <button type="button" class="lang-btn" data-set-lang="zh">中文</button>
+</div>
+
     </nav>
   </div>
 </header>
@@ -105,13 +134,30 @@
     <div class="page-content">
       <div class="wrapper">
         <div class="blog">
-          <h1 class="page-heading">Blog</h1>
-          <p>This page shares the ideas that come to my mind.</p>
+          <h1 class="page-heading"><span class="lang-en">Blog</span><span class="lang-zh">博客</span>
+</h1>
+          <p><span class="lang-en">This page shares the ideas that come to my mind.</span>
+<span class="lang-zh">本页记录我的一些想法。</span></p>
 
 <p><br /></p>
 
 
           <p class="blog-post-list">
+            
+
+              
+                <span class="blog-post-date">
+                  <span class="lang-en">6/1/25</span>
+                  <span class="lang-zh">2025-06-01</span>
+                </span>
+                <a href="http://localhost:4000/ideas/2025/06/01/ai-interaction-platform-paradigm" class="blog-post-title">
+                  <span class="lang-en">The AI Interaction Platform Paradigm</span><span class="lang-zh">ai交互平台范式</span>
+
+                </a>
+                <br />
+
+              
+
             
           </p>
         </div>
@@ -122,7 +168,8 @@
   <div class="wrapper">
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <h4>CONTACT</h4>
+        <h4><span class="lang-en">CONTACT</span><span class="lang-zh">联系</span>
+</h4>
 
         <div class="social-links">
           
@@ -160,7 +207,8 @@
       </div>
 
       <div class="footer-col footer-col-2">
-        <h4>FOLLOW</h4>
+        <h4><span class="lang-en">FOLLOW</span><span class="lang-zh">关注</span>
+</h4>
 
         <div class="social-links follow-links">
           
@@ -203,7 +251,8 @@
       
         <div class="footer-col footer-col-3 powered-by">
           <p>
-            powered by <a href="https://github.com/eliottvincent/bay">Bay</a> | 2026
+            <span class="lang-en">powered by</span><span class="lang-zh">技术支持</span>
+ <a href="https://github.com/eliottvincent/bay">Bay</a> | 2026
           </p>
         </div>
       
@@ -220,8 +269,11 @@
 
 
   <div id="wechat-widget">
-    <p>
+    <p class="lang-en">
       Find me on WeChat with the ID <strong>bullanddragon</strong>, or scan my QR code:
+    </p>
+    <p class="lang-zh">
+      微信搜索 ID <strong>bullanddragon</strong>，或扫描下方二维码：
     </p>
 
     <img src="http://localhost:4000/assets/img/wechat-qr-code.png" alt="QR code" id="qr-code" />

@@ -34,6 +34,21 @@
   font-size: 120%;
 }
 
+.post-origin {
+  display: inline-block;
+  margin-left: 0.6em;
+  padding: 0.15em 0.55em;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  color: #666;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+
 .post-content {
   margin-bottom: $spacing-unit;
   width: 100%;

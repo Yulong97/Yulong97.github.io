@@ -100,7 +100,46 @@ h4,
 h5,
 h6 {
   font-weight: 300;
-  font-family: "Futura", sans-serif;
+  font-family: "Futura", $zh-ui-font-family;
+}
+
+/**
+ * 中文：思源宋体正文、思源黑体标题，避免微软雅黑 300 字重发虚
+ */
+html[data-lang="zh"] {
+  body {
+    font-family: $zh-body-font-family;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.85;
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $zh-ui-font-family;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+
+  h4 {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .site-nav,
+  .lang-switch,
+  .footer-col,
+  .page-link,
+  .lang-btn {
+    font-family: $zh-ui-font-family;
+    font-weight: 400;
+  }
 }
 
 h4 {

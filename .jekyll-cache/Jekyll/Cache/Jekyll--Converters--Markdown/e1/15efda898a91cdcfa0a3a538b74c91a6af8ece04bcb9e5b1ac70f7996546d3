@@ -1,0 +1,106 @@
+I".<div class="lang-zh">
+
+  <p>传统的 App 是为人设计的。屏幕、按钮、信息流、会员弹窗——整套交互都假设用户会看、会点、会停留。商业模式因此也很稳定：对用户侧免费或近乎免费，靠注意力税变现；对商家侧抽佣，把渠道成本嵌进每一次成交。</p>
+
+  <p>问题是，注意力正在换主人。</p>
+
+  <p>当用户把越来越多的比较、下单和售后外包给本地或云端的 agent，旧的攫取机制就会失灵。Agent 不刷短视频，也不对红点上瘾。它要的是可调用的能力、可核验的结果，以及可结算的费用。当前真正的矛盾，也许不是「AI 会不会取代 App」，而是：<strong>新的注意力范式已经在转移，旧的注意力攫取机制还在运转。</strong></p>
+
+  <h2 id="for-people-or-agents">面向人，还是面向 agent</h2>
+
+  <p>如果下一代应用不再首先面向人，而是面向 agent，设计目标就会从留存、时长、转化，变成接口、权限、计费与履约。人仍然是需求的源头，但人不再是被反复拦截的流量入口。</p>
+
+  <p>一条更干净的链条可能是：</p>
+
+  <p>用户 → 本地/云端 agent ⇄ <strong>服务</strong> ⇄ 商家 agent → 商品、服务提供商</p>
+
+  <p>中间这一层「服务」，不必再是超级 App。它可以是自动撮合、自动询价、自动履约的交易系统——某种意义上的自动做市商。它挣的不是用户的时间，而是流量的过路费：让供需双方的 agent 以尽量低的渠道成本成交，把利润留给产品制造者和品牌方，从而形成正向的品牌效应和供给升级。</p>
+
+  <p>这需要更底层的计费能力。HTTP 402 Payment Required 之所以重新被提起，正是因为它把「调用即付」写回协议层：请求可以携带支付意图，响应可以要求付款，机器与机器之间不必再绕过人的订阅页和广告位。流量因此可以按次、按质、按结果结算，而不是按停留时长收割。</p>
+
+  <h2 id="open-questions">几个尚未回答的问题</h2>
+
+  <p>这样的范式听起来像是把平台从「注意力赌场」降维成「管道」。但管道也会长成新的权力。至少有五个问题值得先问清楚。</p>
+
+  <h3 id="small-providers">中小微提供商如何不被淘汰</h3>
+
+  <p>规模成本如果压不下来，自动撮合很容易只看见报价最低、响应最快、接口最标准的大供给。中小微要活下来，必须把差异化、个性化写成 agent 可读的信息：工艺、产地、交期、维修、小批量定制，而不是只会填一个价格字段。平台若只优化成交效率，个性化就会被当成噪声滤掉。</p>
+
+  <h3 id="section">会不会劣币驱逐良币</h3>
+
+  <p>Agent 默认追求可比较、可聚合、可成交。于是最容易被量化的指标——价格、时效、好评率——会压过难以量化的品质。若缺少可追溯的履约、质检与事后追责，劣质供给可以用更低报价占满匹配队列。过路费模式要成立，计费对象就不能只是「调用次数」，还得能对「履约质量」定价。</p>
+
+  <h3 id="section-1">会不会一家独大</h3>
+
+  <p>自动做市商吃的是网络密度：供给越多，匹配越准，agent 越愿意接入，供给就更愿意入驻。这和今天的超级平台是同一类飞轮。若结算协议、身份、信用与物流接口都绑在同一套私有设施上，过路费会重新变成新的渠道税。真正把渠道费打下来，前提是撮合层可替换、协议层可互通，而不是再长出一个 agent 时代的超级 App。</p>
+
+  <h3 id="section-2">基础设施是否已经够用</h3>
+
+  <p>这套范式要跑起来，至少需要：agent 的身份与授权、机器可读的商品与服务描述、跨主体的支付与清结算（402 只是入口）、履约与争议仲裁，以及用户对 agent 的可控性。缺任何一块，链条都会在现实里断掉——不是断在演示里，而是断在退货、诈骗、隐私和责任归属上。</p>
+
+  <h3 id="section-3">链条上各方在怕什么</h3>
+
+  <p>用户怕的是 agent 被买通，以及数据与决策权被让渡后难以追责。本地/云端 agent 怕的是工具被平台切断、分成被抽干。撮合服务怕的是做市没有流动性，以及一做大就被按「市场支配地位」处理。商家 agent 怕的是比价把品牌打成参数，以及接口一开就被爬干。品牌方和制造商怕的是过路费降了，定价权、售后和品牌叙事却一起丢了。没有人会只因为「效率更高」就自动站到新范式这一边。</p>
+
+  <h2 id="section-4">结语</h2>
+
+  <p>面向 agent 的交互平台，不是把按钮换成 API 这么简单。它问的是：当注意力不再属于屏幕，价值交换能不能回到更底层的协议——用过路费代替注意力税，用撮合代替抽佣，把利润还给把东西做好的人。</p>
+
+  <p>至于它会不会成为新的垄断、会不会伤害中小供给、会不会让劣质商品以机器速度流通，并不取决于口号，而取决于计费、信用、互操作这些看起来很「底层」的安排。HTTP 402 只是一个信号：机器已经准备好付钱了。还没准备好的，是我们想让它们生活在怎样的市场里。</p>
+
+</div>
+
+<div class="lang-en">
+
+  <p><em>Translated from the Chinese original.</em></p>
+
+  <p>Traditional apps are designed for people. Screens, buttons, feeds, paywalls: the whole interface assumes that a user will look, tap, and stay. The business model followed naturally. On the user side, the product is free or nearly free, and the real levy is an attention tax. On the merchant side, the platform takes a cut, folding channel costs into every transaction.</p>
+
+  <p>The problem is that attention is changing hands.</p>
+
+  <p>As users outsource more comparison, checkout, and after-sales work to a local or cloud agent, the old extraction machine starts to jam. An agent does not scroll short videos and does not get hooked on red dots. It wants callable capabilities, verifiable results, and a bill it can settle. The real tension today may not be whether AI will replace apps. It is this: <strong>a new attention paradigm is already shifting, while the old attention-harvesting machinery is still running.</strong></p>
+
+  <h2 id="built-for-people-or-built-for-agents">Built for people, or built for agents</h2>
+
+  <p>If the next generation of applications is no longer built first for people, but for agents, the design target moves from retention, time-on-app, and conversion to interfaces, permissions, billing, and fulfillment. People remain the source of demand. They stop being the traffic entrance that gets intercepted again and again.</p>
+
+  <p>A cleaner chain might look like this:</p>
+
+  <p>user → local / cloud agent ⇄ <strong>service</strong> ⇄ merchant agent → goods and service providers</p>
+
+  <p>The middle layer does not have to be another super app. It can be a trading system that matches, quotes, and fulfills automatically—an automated market maker, in a sense. It would not earn the user’s time. It would earn a toll on traffic: let agents on both sides transact at the lowest possible channel cost, leave the margin with manufacturers and brands, and produce a positive brand effect plus an upgrade in supply.</p>
+
+  <p>That requires a lower-level billing primitive. HTTP 402 Payment Required is being discussed again because it writes “pay on call” back into the protocol: a request can carry payment intent, a response can demand payment, and machines do not have to detour through a human subscription page or an ad slot. Traffic can then be settled per call, per quality, or per outcome, instead of being harvested by dwell time.</p>
+
+  <h2 id="questions-that-are-still-open">Questions that are still open</h2>
+
+  <p>This paradigm sounds like shrinking the platform from an attention casino into a pipe. Pipes grow into power too. At least five questions are worth asking first.</p>
+
+  <h3 id="how-do-small-providers-avoid-being-wiped-out">How do small providers avoid being wiped out</h3>
+
+  <p>If scale costs cannot be compressed, automated matching will see only the cheapest quote, the fastest response, and the most standardized API. Small and micro providers survive only if differentiation and personalization become agent-readable: craft, origin, lead time, repair, small-batch customization—not a single price field. If the platform optimizes only for closing the deal, personalization will be filtered out as noise.</p>
+
+  <h3 id="will-bad-supply-drive-out-good-supply">Will bad supply drive out good supply</h3>
+
+  <p>Agents default to what can be compared, aggregated, and closed. The easiest metrics—price, speed, rating—will crowd out quality that is hard to quantify. Without traceable fulfillment, inspection, and after-the-fact liability, low-grade supply can fill the matching queue with a lower bid. For a toll model to work, billing cannot cover only “number of calls.” It has to price the quality of fulfillment.</p>
+
+  <h3 id="will-one-player-take-the-whole-market">Will one player take the whole market</h3>
+
+  <p>An automated market maker feeds on network density: more supply makes matching sharper, agents are more willing to connect, and more supply then wants in. That is the same flywheel as today’s super platforms. If settlement, identity, credit, and logistics are all bound to one private stack, the toll becomes a new channel tax. Driving channel fees down for real requires a replaceable matching layer and an interoperable protocol layer—not another super app for the agent era.</p>
+
+  <h3 id="is-the-infrastructure-even-ready">Is the infrastructure even ready</h3>
+
+  <p>For this paradigm to run, we need at least: identity and authorization for agents; machine-readable descriptions of goods and services; cross-party payments and clearing (402 is only the doorway); fulfillment and dispute resolution; and user control over the agent. Missing any piece, the chain breaks in reality—not in the demo, but in returns, fraud, privacy, and who is responsible.</p>
+
+  <h3 id="what-each-party-in-the-chain-is-afraid-of">What each party in the chain is afraid of</h3>
+
+  <p>Users fear that the agent will be bought off, and that once data and decision rights are handed over, no one can be held to account. Local and cloud agents fear being cut off by the platform, or having their share drained. The matching service fears a market with no liquidity, and fears being treated as dominant the moment it works. Merchant agents fear comparison shopping flattening a brand into parameters, and fear that opening an API means being scraped dry. Brands and manufacturers fear that even if the toll falls, they lose pricing power, after-sales, and the brand story at the same time. Nobody will stand on the side of a new paradigm just because it is more efficient.</p>
+
+  <h2 id="closing">Closing</h2>
+
+  <p>An agent-facing interaction platform is not a matter of swapping buttons for APIs. It asks whether, once attention no longer belongs to the screen, value exchange can return to a lower-level protocol: a toll instead of an attention tax, matching instead of a commission, and profit returned to the people who make the thing well.</p>
+
+  <p>Whether it becomes a new monopoly, whether it hurts small suppliers, whether it lets bad goods circulate at machine speed, will not be settled by slogans. It will be settled by billing, credit, and interoperability—the arrangements that look like infrastructure. HTTP 402 is only a signal: machines are ready to pay. What is not ready is the kind of market we want them to live in.</p>
+
+</div>
+:ET

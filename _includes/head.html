@@ -2,16 +2,36 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <script>
+    (function() {
+      var lang = "en";
+      try {
+        lang = localStorage.getItem("site-lang") || "en";
+      } catch (e) {}
+      if (lang !== "zh") lang = "en";
+      document.documentElement.setAttribute("data-lang", lang);
+      document.documentElement.setAttribute("lang", lang === "zh" ? "zh-CN" : "en");
+    })();
+  </script>
 
   {% assign page_is_article = false %}
   {% if page.layout == "post" %}{% assign page_is_article = true %}{% endif %}
 
+  {% assign site_title_zh = site.data.i18n.site_title.zh | default: site.title %}
+  {% assign page_title_zh_label = page.title_zh | default: page.title %}
+
   {% assign page_title = "" %}
-  {% if page.draft %}{% assign page_title = page_title | append: "[DRAFT] " %}{% endif %}
+  {% assign page_title_zh = "" %}
+  {% if page.draft %}
+    {% assign page_title = page_title | append: "[DRAFT] " %}
+    {% assign page_title_zh = page_title_zh | append: "[DRAFT] " %}
+  {% endif %}
   {% if page.title %}
     {% assign page_title = page_title | append: site.title | append: " | " | append: page.title %}
+    {% assign page_title_zh = page_title_zh | append: site_title_zh | append: " | " | append: page_title_zh_label %}
   {% else %}
     {% assign page_title = site.title %}
+    {% assign page_title_zh = site_title_zh %}
   {% endif %}
 
   {% assign page_description = "" %}
@@ -38,6 +58,8 @@
 
   <!-- Primary Meta Tags -->
   <title>{{ page_title }}</title>
+  <meta name="i18n-title-en" content="{{ page_title }}"/>
+  <meta name="i18n-title-zh" content="{{ page_title_zh }}"/>
   <meta name="title" content="{{ page_title }}"/>
   <meta name="description" content="{{ page_description }}"/>
 
@@ -60,6 +82,8 @@
     <meta property="twitter:site" content="{{ twitter_username }}"/>
   {% endif %}
 
+  <link rel="preconnect" href="https://fonts.bunny.net" crossorigin/>
+  <link rel="stylesheet" href="https://fonts.bunny.net/css?family=noto-sans-sc:400,500,700|noto-serif-sc:400,600&display=swap"/>
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | absolute_url }}"/>
   <link rel="canonical" href="{{ page_url }}"/>
   <link rel="shortcut icon" href="{{ "/logo.ico" | absolute_url }}" type="image/x-icon"/>

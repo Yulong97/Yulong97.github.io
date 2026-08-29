@@ -1,13 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <script>
+    (function() {
+      var lang = "en";
+      try {
+        lang = localStorage.getItem("site-lang") || "en";
+      } catch (e) {}
+      if (lang !== "zh") lang = "en";
+      document.documentElement.setAttribute("data-lang", lang);
+      document.documentElement.setAttribute("lang", lang === "zh" ? "zh-CN" : "en");
+    })();
+  </script>
 
   
   
 
+  
+  
+
+  
   
   
   
@@ -28,6 +43,8 @@
 
   <!-- Primary Meta Tags -->
   <title>Yulong's Webpage | Research</title>
+  <meta name="i18n-title-en" content="Yulong's Webpage | Research"/>
+  <meta name="i18n-title-zh" content="刘宇龙 | 研究"/>
   <meta name="title" content="Yulong's Webpage | Research"/>
   <meta name="description" content="This web is sopported by Bay: a minimal Jekyll Theme."/>
 
@@ -50,6 +67,8 @@
     <meta property="twitter:site" content="@YourTwitterUsername"/>
   
 
+  <link rel="preconnect" href="https://fonts.bunny.net" crossorigin/>
+  <link rel="stylesheet" href="https://fonts.bunny.net/css?family=noto-sans-sc:400,500,700|noto-serif-sc:400,600&display=swap"/>
   <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css"/>
   <link rel="canonical" href="http://localhost:4000//research"/>
   <link rel="shortcut icon" href="http://localhost:4000/logo.ico" type="image/x-icon"/>
@@ -81,22 +100,32 @@
           
           
           <a class="page-link" href="http://localhost:4000/">
-            Home
+            <span class="lang-en">Home</span><span class="lang-zh">首页</span>
+
           </a>
         
           
           
           <a class="page-link" href="http://localhost:4000/research">
-            Research
+            <span class="lang-en">Research</span><span class="lang-zh">研究</span>
+
           </a>
         
           
           
           <a class="page-link" href="http://localhost:4000/blog">
-            Blog
+            <span class="lang-en">Blog</span><span class="lang-zh">博客</span>
+
           </a>
         
       </div>
+
+      <div class="lang-switch" role="group" aria-label="Language">
+  <button type="button" class="lang-btn" data-set-lang="en">EN</button>
+  <span class="lang-sep" aria-hidden="true">/</span>
+  <button type="button" class="lang-btn" data-set-lang="zh">中文</button>
+</div>
+
     </nav>
   </div>
 </header>
@@ -105,8 +134,10 @@
     <div class="page-content">
       <div class="wrapper">
         <div class="work">
-          <h1 class="page-heading">Research</h1>
-          <p>This page lists the research projects I am conducting.</p>
+          <h1 class="page-heading"><span class="lang-en">Research</span><span class="lang-zh">研究</span>
+</h1>
+          <p><span class="lang-en">This page lists the research projects I am conducting.</span>
+<span class="lang-zh">本页列出我正在开展的研究工作。</span></p>
 
 <p><br />
 <br /></p>
@@ -120,9 +151,13 @@
               class="work-bubble"
             />
             <span class="work-text">
-              <strong>E-Textile Devices</strong>
+              <strong>
+                <span class="lang-en">E-Textile Devices</span>
+                <span class="lang-zh">电子织物器件</span>
+              </strong>
               &mdash;
-              E-textile devices, which are made using advanced materials and fabrication techniques, are seen as the future of smart wearables due to their flexibility, comfort, and ease of deployment. Research in this field involves the development and characterization of materials, the design of functional devices, and the creation of fabric computing systems. My work in this area includes the investigation of material characterization, the design of embroidered antennas, and the development of fabric-based sensors. These devices offer a number of benefits over traditional wearables, including improved comfort, flexibility, and durability. As a result, they are being widely explored for use in a range of applications, including healthcare, fitness, and communication. test
+              <span class="lang-en">E-textile devices, which are made using advanced materials and fabrication techniques, are seen as the future of smart wearables due to their flexibility, comfort, and ease of deployment. Research in this field involves the development and characterization of materials, the design of functional devices, and the creation of fabric computing systems. My work in this area includes the investigation of material characterization, the design of embroidered antennas, and the development of fabric-based sensors. These devices offer a number of benefits over traditional wearables, including improved comfort, flexibility, and durability. As a result, they are being widely explored for use in a range of applications, including healthcare, fitness, and communication. test</span>
+              <span class="lang-zh">电子织物器件采用先进材料与制备工艺制成，因其柔性、舒适与易于部署，被视为智能可穿戴的重要方向。该领域研究涵盖材料开发与表征、功能器件设计，以及织物计算系统构建。我的工作包括材料表征、刺绣天线设计，以及织物传感器开发。相较于传统可穿戴设备，这类器件在舒适性、柔性和耐久性上更具优势，因而广泛应用于医疗健康、运动健身与通信等领域。</span>
             </span>
           </div>
           
@@ -133,9 +168,13 @@
               class="work-bubble"
             />
             <span class="work-text">
-              <strong>Battery-less Sensing</strong>
+              <strong>
+                <span class="lang-en">Battery-less Sensing</span>
+                <span class="lang-zh">无电池传感</span>
+              </strong>
               &mdash;
-              Battery-less sensing refers to a type of sensing technology that does not rely on batteries to operate. Instead, it relies on external sources of power to function. This can be particularly useful in situations where it is not practical or possible to replace or recharge batteries, such as in remote locations or in situations where the sensor needs to be left in place for an extended period of time.There are several different approaches to battery-less sensing, including the use of energy harvesting technologies such as solar panels or kinetic energy generators, as well as the use of wireless power transmission technologies. One key advantage of battery-less sensing is that it eliminates the need for maintenance or replacement of batteries, which can save time and money over the long term. Additionally, battery-less sensing can be more environmentally friendly, as it reduces the need for disposing of used batteries.Battery-less sensing is used in a wide range of applications, including environmental monitoring, structural health monitoring, and security systems. It is also being explored for use in the Internet of Things (IoT), where it could potentially enable the deployment of large numbers of sensors without the need for maintenance or battery replacement.
+              <span class="lang-en">Battery-less sensing refers to a type of sensing technology that does not rely on batteries to operate. Instead, it relies on external sources of power to function. This can be particularly useful in situations where it is not practical or possible to replace or recharge batteries, such as in remote locations or in situations where the sensor needs to be left in place for an extended period of time.There are several different approaches to battery-less sensing, including the use of energy harvesting technologies such as solar panels or kinetic energy generators, as well as the use of wireless power transmission technologies. One key advantage of battery-less sensing is that it eliminates the need for maintenance or replacement of batteries, which can save time and money over the long term. Additionally, battery-less sensing can be more environmentally friendly, as it reduces the need for disposing of used batteries.Battery-less sensing is used in a wide range of applications, including environmental monitoring, structural health monitoring, and security systems. It is also being explored for use in the Internet of Things (IoT), where it could potentially enable the deployment of large numbers of sensors without the need for maintenance or battery replacement.</span>
+              <span class="lang-zh">无电池传感不依赖电池供电，而是借助外部能量工作。在电池难以更换或充电的场景中尤为有用，例如偏远地区，或传感器需长期原位部署的场合。实现路径包括太阳能、动能等能量采集，以及无线供电。其核心优势是无需维护或更换电池，长期可节省时间与成本，同时减少废旧电池带来的环境负担。应用涵盖环境监测、结构健康监测与安防系统，并被探索用于物联网，以支持大规模传感器部署而无需频繁维护。</span>
             </span>
           </div>
           
@@ -146,9 +185,13 @@
               class="work-bubble"
             />
             <span class="work-text">
-              <strong>In-Sensor Computing</strong>
+              <strong>
+                <span class="lang-en">In-Sensor Computing</span>
+                <span class="lang-zh">端侧传感计算</span>
+              </strong>
               &mdash;
-              In-sensor computing refers to the use of microelectronic devices within sensors to perform data processing and analysis tasks at or near the point of data collection. This approach can significantly reduce the amount of data that needs to be transmitted to a central processing unit, and can also enable real-time processing and decision-making.In-sensor computing is used in a wide range of applications, including environmental monitoring, industrial automation, and military and aerospace systems. It is particularly useful in situations where the data being collected is too large or complex to be transmitted effectively, or where real-time processing is required.There are several different approaches to in-sensor computing, including the use of microprocessors, microcontrollers, and field-programmable gate arrays (FPGAs). These devices allow sensors to perform a wide range of tasks, including data acquisition, data filtering, data fusion, and data analysis.
+              <span class="lang-en">In-sensor computing refers to the use of microelectronic devices within sensors to perform data processing and analysis tasks at or near the point of data collection. This approach can significantly reduce the amount of data that needs to be transmitted to a central processing unit, and can also enable real-time processing and decision-making.In-sensor computing is used in a wide range of applications, including environmental monitoring, industrial automation, and military and aerospace systems. It is particularly useful in situations where the data being collected is too large or complex to be transmitted effectively, or where real-time processing is required.There are several different approaches to in-sensor computing, including the use of microprocessors, microcontrollers, and field-programmable gate arrays (FPGAs). These devices allow sensors to perform a wide range of tasks, including data acquisition, data filtering, data fusion, and data analysis.</span>
+              <span class="lang-zh">端侧传感计算是在传感器内部或近端，利用微电子器件完成数据处理与分析。该方法可显著减少需传输至中心处理器的数据量，并支持实时处理与决策。应用涵盖环境监测、工业自动化以及军事与航空航天系统，尤其适用于数据规模过大、传输困难，或需要实时处理的场景。实现方式包括微处理器、微控制器与 FPGA，使传感器能够完成数据采集、滤波、融合与分析等任务。</span>
             </span>
           </div>
           
@@ -160,7 +203,8 @@
   <div class="wrapper">
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <h4>CONTACT</h4>
+        <h4><span class="lang-en">CONTACT</span><span class="lang-zh">联系</span>
+</h4>
 
         <div class="social-links">
           
@@ -198,7 +242,8 @@
       </div>
 
       <div class="footer-col footer-col-2">
-        <h4>FOLLOW</h4>
+        <h4><span class="lang-en">FOLLOW</span><span class="lang-zh">关注</span>
+</h4>
 
         <div class="social-links follow-links">
           
@@ -241,7 +286,8 @@
       
         <div class="footer-col footer-col-3 powered-by">
           <p>
-            powered by <a href="https://github.com/eliottvincent/bay">Bay</a> | 2026
+            <span class="lang-en">powered by</span><span class="lang-zh">技术支持</span>
+ <a href="https://github.com/eliottvincent/bay">Bay</a> | 2026
           </p>
         </div>
       
@@ -258,8 +304,11 @@
 
 
   <div id="wechat-widget">
-    <p>
+    <p class="lang-en">
       Find me on WeChat with the ID <strong>bullanddragon</strong>, or scan my QR code:
+    </p>
+    <p class="lang-zh">
+      微信搜索 ID <strong>bullanddragon</strong>，或扫描下方二维码：
     </p>
 
     <img src="http://localhost:4000/assets/img/wechat-qr-code.png" alt="QR code" id="qr-code" />

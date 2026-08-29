@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   {% include head.html %}
 
   <body>
@@ -17,15 +17,30 @@
 
             <h1 class="post-title">
             {% if page.headline_formatted_title %}
-              {{ page.headline_formatted_title | newline_to_br }}
+              <span class="lang-en">{{ page.headline_formatted_title | newline_to_br }}</span>
+              <span class="lang-zh">{{ page.headline_formatted_title_zh | default: page.headline_formatted_title | newline_to_br }}</span>
             {% else %}
-              {{ page.title }}
+              {% include i18n.html en=page.title zh=page.title_zh %}
             {% endif %}
             </h1>
 
-            {% if page.subtitle %}<h1 class="post-subtitle">{{ page.subtitle }}</h1>{% endif %}
-            <p class="post-meta"><span class="post-date">{{ page.date | date: "%B %-d, %Y" }}
-            </span>{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+            {% if page.subtitle %}
+              <h1 class="post-subtitle">{% include i18n.html en=page.subtitle zh=page.subtitle_zh %}</h1>
+            {% endif %}
+            <p class="post-meta"><span class="post-date">
+              <span class="lang-en">{{ page.date | date: "%B %-d, %Y" }}</span>
+              <span class="lang-zh">{{ page.date | date: "%Y年%-m月%-d日" }}</span>
+            </span>{% if page.original_lang == "zh" %}
+              <span class="post-origin">
+                <span class="lang-en">Originally written in Chinese</span>
+                <span class="lang-zh">原文为中文</span>
+              </span>
+            {% elsif page.original_lang == "en" %}
+              <span class="post-origin">
+                <span class="lang-en">Originally written in English</span>
+                <span class="lang-zh">原文为英文</span>
+              </span>
+            {% endif %}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
           </header>
 
           <article class="post-content">

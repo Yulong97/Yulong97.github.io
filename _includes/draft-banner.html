@@ -1,8 +1,14 @@
 <div class="draft-banner">
   <strong>
     &#x26D4;&nbsp;
-    This is a draft of a post coming to
-    <a href="{{ site.url }}">{{ site.url }}</a>. Please do not share yet.
+    <span class="lang-en">
+      {{ site.data.i18n.draft.en_before }}
+      <a href="{{ site.url }}">{{ site.url }}</a>{{ site.data.i18n.draft.en_after }}
+    </span>
+    <span class="lang-zh">
+      {{ site.data.i18n.draft.zh_before }}
+      <a href="{{ site.url }}">{{ site.url }}</a>{{ site.data.i18n.draft.zh_after }}
+    </span>
     &nbsp;&#x26D4;
   </strong>
 </div>

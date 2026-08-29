@@ -40,6 +40,8 @@
   z-index: 10;
   float: right;
   line-height: 56px;
+  display: flex;
+  align-items: center;
 
   .menu-icon {
     display: none;
@@ -63,6 +65,8 @@
     border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
+    display: block;
+    line-height: 26px;
 
     .menu-icon {
       display: block;
@@ -90,7 +94,63 @@
       display: block;
       padding: 6px 16px;
     }
+
+    .lang-switch {
+      float: left;
+      margin: 4px 8px 0 10px;
+      line-height: 26px;
+    }
   }
+}
+
+/**
+ * Language switch
+ */
+html:not([data-lang="zh"]) .lang-zh {
+  display: none !important;
+}
+
+html[data-lang="zh"] .lang-en {
+  display: none !important;
+}
+
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 20px;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  user-select: none;
+
+  .lang-btn {
+    background: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    color: $grey-color;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: 400;
+
+    &:hover {
+      color: $text-color;
+      text-decoration: none;
+    }
+  }
+
+  .lang-sep {
+    color: $grey-color-light;
+    pointer-events: none;
+  }
+}
+
+html:not([data-lang="zh"]) .lang-btn[data-set-lang="en"],
+html[data-lang="zh"] .lang-btn[data-set-lang="zh"] {
+  color: $text-color;
+  font-weight: 500;
 }
 
 /**
